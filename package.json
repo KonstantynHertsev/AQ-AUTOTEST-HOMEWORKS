@@ -1,0 +1,25 @@
+{
+  "name": "aq-autotest-homeworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantynHertsev/AQ-AUTOTEST-HOMEWORKS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonstantynHertsev/AQ-AUTOTEST-HOMEWORKS/issues"
+  },
+  "homepage": "https://github.com/KonstantynHertsev/AQ-AUTOTEST-HOMEWORKS#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "globals": "^15.14.0"
+  }
+}
