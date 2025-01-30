@@ -33,7 +33,7 @@ function arithmetics() {
     console.log (num1 / num2);
     console.log (num1 % num2);
     console.log (num1 ** num2);
-    console.log (num3 / num3)
+    console.log (num3 / num3);
     console.log (num4 / num3);
     console.log ((num4 /num3) + num1); //I think this code is not necessary, but I decided to leave it, in case I'm wrong.
     console.log ((num4 /num3) - num1); //I think this code is not necessary, but I decided to leave it, in case I'm wrong.
