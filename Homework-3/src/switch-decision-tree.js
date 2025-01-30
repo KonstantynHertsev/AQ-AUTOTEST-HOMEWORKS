@@ -1,15 +1,15 @@
 function switchDecisionTree () {
-    const a1 = 1;
-    const a2 = 2;
+    const a1 = 'Office'
 
-
-    switch (true) {
-        case a1 != a2:
-            console.log ('a1 not equal a2');
+    switch (a1) {
+        case "Home":
+            console.log("at home");
+            break;
+        case "Office":
+            console.log("at office");
             break;
         default:
-            console.log ('a1 equals a2');
-            break;
+            console.log("unknown location");
     }
 
 }
