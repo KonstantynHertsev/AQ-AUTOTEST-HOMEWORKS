@@ -1,31 +1,27 @@
 function arithmetics() {
     let num1 = 3;
-    let num2 = 6;
-    let num3 = 0;
-    let num4 = 1;
-    let num5 = 2;
-    let num6 = 53;
-    
+    const num2 = 6;
+    const num3 = 0;
+    const num4 = 1;
+    const num5 = 2;
+    const num6 = 53;
 
-    let str1 = "Ivan";
-    let str2 = "Pupkin";
+    const str1 = "Ivan";
+    const str2 = "Punkin";
     let str3 = "6";
 
     let bool1 = true;
-    let bool2 = false;
+    const bool2 = false;
 
-    let x
-    let y
+    let x;
+    let y;
 
 
     let emptyValue1 = null;
     let emptyValue2 = null;
 
-    let obj1 = { value: 10 };
-    let obj2 = { value: 8 };
-
-    
-
+    const obj1 = { value: 10 };
+    const obj2 = { value: 8 };
 
     console.log (num1 + num2);
     console.log (num1 - num2);

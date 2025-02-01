@@ -1,7 +1,7 @@
 function decisionTree () {
 
-    const a1 = "Office"
-    const a2 = null
+    const a1 = "Office";
+    const a2 = null;
 
 
     if (!(a1 ?? a2)) {

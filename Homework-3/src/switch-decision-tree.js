@@ -1,5 +1,5 @@
 function switchDecisionTree () {
-    const a1 = 'Office'
+    const a1 = 'Office';
 
     switch (a1) {
         case "Home":
