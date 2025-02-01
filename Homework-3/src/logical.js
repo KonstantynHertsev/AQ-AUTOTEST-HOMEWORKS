@@ -148,7 +148,3 @@ function logical() {
    console.log(obj1 ?? "default");      
 }
 logical();
-
-
-
-
