@@ -1,0 +1,1 @@
+# In this homework I try too play with interfaces, types and classes
