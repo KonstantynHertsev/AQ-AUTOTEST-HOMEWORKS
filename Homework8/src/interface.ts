@@ -13,7 +13,7 @@ export interface Country {
     area: number;
 }
 
-  class Obj2 {
+  export class Obj2 {
     commonName: string;
     commonOfficial: string;
     nativeNames: string[];
@@ -36,18 +36,4 @@ export interface Country {
     getSummary() {
         return `${this.totalInfo}\nNative Names: ${this.nativeNames.join(', ')}`;
     }
- }
-
-
-async function getJson(): Promise<Country> {
-    const response = await fetch('https://restcountries.com/v3.1/name/ukraine');
-    const json = await response.json() as Country[];
-    return json[0];    
-}
-
-(async () => {
-    const data = await getJson();
-    const obj2 = new Obj2(data);
-
-    console.log(obj2.getSummary()); 
-})();
+ };

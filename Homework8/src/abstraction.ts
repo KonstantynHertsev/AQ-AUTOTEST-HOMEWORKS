@@ -32,10 +32,4 @@ export class EquilateralTriangle extends Triangle {
     public calcArea(): number {
         return (Math.sqrt(3) / 4) * this.a * this.a;
     }
-}
-
-const triangle = new EquilateralTriangle(3);
-console.log(triangle.calcPerimeter());
-console.log(triangle.calcArea().toFixed(2));
-console.log("\n------------------\n");
-
+};
