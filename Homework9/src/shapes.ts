@@ -38,3 +38,8 @@ export class Square extends Rectangle {
         super(side, side);
     }
 }
+
+export function printShapeInfo(shape: IShape): void {
+    console.log("Area:", shape.calcArea());
+    console.log("Perimeter:", shape.calcPerimeter());
+}

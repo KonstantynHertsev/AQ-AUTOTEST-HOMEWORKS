@@ -8,9 +8,6 @@ function displayShapeInfo(shape: IShape): void {
 const rectangle = new Rectangle(4, 6);
 console.log('Rectangle:');
 displayShapeInfo(rectangle);
-
-console.log('\n-------------------\n');
-
 const square = new Square(5);
 console.log('Square:');
 displayShapeInfo(square);
