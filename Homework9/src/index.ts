@@ -1,16 +1,9 @@
-import { IShape, Rectangle, Square } from './shapes';
+import { Rectangle } from "../src/Rectangle";
+import { Square } from "../src/Square";
+import { printShapeInfo } from "../src/shapeUtils";
 
-function displayShapeInfo(shape: IShape): void {
-    console.log(`Area: ${shape.calcArea()}`);
-    console.log(`Perimeter: ${shape.calcPerimeter()}`);
-}
+const rectangle = new Rectangle(10, 5);
+const square = new Square(7);
 
-const rectangle = new Rectangle(4, 6);
-console.log('Rectangle:');
-displayShapeInfo(rectangle);
-
-console.log('\n-------------------\n');
-
-const square = new Square(5);
-console.log('Square:');
-displayShapeInfo(square);
+printShapeInfo(rectangle);
+printShapeInfo(square);
