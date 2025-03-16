@@ -1,3 +1,10 @@
 {
+<<<<<<< HEAD
     "git.ignoreLimitWarning": true
+=======
+    "cSpell.words": [
+        "favourite",
+        "favourites"
+    ]
+>>>>>>> b71bcc63fe0e28d6b8131905aa9bdb1c591ee004
 }
