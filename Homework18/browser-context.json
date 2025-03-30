@@ -1,0 +1,28 @@
+{
+    "cookies": [
+      {
+        "name": "Admin1@f4ntec.com",
+        "value": "F4ntec!@#",
+        "domain": "https://bbstaticwebapptest.azurewebsites.net/login",
+        "path": "/",
+        "expires": 1678886400,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "Strict"
+      }
+    ],
+    "origins": [
+      {
+        "origin": "https://bbstaticwebapptest.azurewebsites.net/login",
+        "localStorage": [
+          {
+            "name": "Admin1@f4ntec.com",
+            "value": "F4ntec!@#"
+          }
+        ],
+        "sessionStorage": [
+         
+        ]
+      }
+    ]
+  }
